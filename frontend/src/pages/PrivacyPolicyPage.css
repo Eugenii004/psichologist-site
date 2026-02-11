@@ -1,0 +1,276 @@
+.privacy-policy-page {
+    padding: 60px 0;
+    line-height: 1.7;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .privacy-policy-page h1 {
+    color: var(--primary-color);
+    margin-bottom: 10px;
+    font-size: 2.2rem;
+    text-align: center;
+  }
+  
+  .last-updated {
+    text-align: center;
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 40px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+  }
+  
+  .policy-content {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+  }
+  
+  .policy-section {
+    margin-bottom: 35px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #eaeaea;
+  }
+  
+  .policy-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .policy-section h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--accent-color);
+  }
+  
+  .policy-section p {
+    margin-bottom: 15px;
+    text-align: justify;
+  }
+  
+  .policy-section ul {
+    margin: 15px 0 15px 25px;
+    padding-left: 15px;
+  }
+  
+  .policy-section li {
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .policy-section li:before {
+    content: "•";
+    color: var(--accent-color);
+    font-weight: bold;
+    position: absolute;
+    left: -15px;
+  }
+  
+  .contact-details {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-left: 4px solid var(--primary-color);
+  }
+  
+  .contact-details a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .privacy-policy-page {
+      padding: 30px 15px;
+    }
+    
+    .policy-content {
+      padding: 25px 20px;
+    }
+    
+    .privacy-policy-page h1 {
+      font-size: 1.8rem;
+    }
+    
+    .policy-section h2 {
+      font-size: 1.3rem;
+    }
+  }
+
+  /* Стили для блока с описанием согласия */
+.consent-summary {
+  background-color: #f0f7ff;
+  border-radius: 10px;
+  padding: 25px;
+  margin: 40px 0;
+  border-left: 5px solid #007bff;
+}
+
+.consent-summary h3 {
+  color: #0056b3;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+.consent-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.consent-step {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.step-number {
+  background-color: #007bff;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-content h4 {
+  color: #333;
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.step-content p {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+}
+
+.important-note {
+  background-color: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 25px;
+}
+
+.important-note p {
+  margin: 0;
+  color: #856404;
+}
+
+/* Кнопки действий */
+.policy-actions {
+  display: flex;
+  gap: 15px;
+  margin: 40px 0;
+  padding-top: 30px;
+  border-top: 2px solid #eee;
+  flex-wrap: wrap;
+}
+
+.policy-actions .btn {
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+}
+
+.btn-outline {
+  background-color: white;
+  color: #007bff;
+  border: 2px solid #007bff;
+}
+
+.btn-outline:hover {
+  background-color: #007bff;
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Контактные данные */
+.contact-details {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .consent-step {
+      flex-direction: column;
+      gap: 15px;
+  }
+  
+  .step-number {
+      align-self: center;
+  }
+  
+  .policy-actions {
+      flex-direction: column;
+  }
+  
+  .policy-actions .btn {
+      width: 100%;
+  }
+}
+
+@media print {
+  .policy-actions,
+  .consent-summary {
+      display: none;
+  }
+}

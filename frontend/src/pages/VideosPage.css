@@ -1,0 +1,38 @@
+.videos-page {
+    padding: 40px 0;
+  }
+  
+  .videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .no-videos {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .no-videos p {
+    font-size: 1.2rem;
+    color: var(--gray-color);
+  }
+  
+  .videos-info {
+    background: var(--light-color);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--primary-color);
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    .videos-grid {
+      grid-template-columns: 1fr;
+    }
+  }
