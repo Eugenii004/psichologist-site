@@ -1,2 +1,3 @@
-# psichologist-site
-The web site 
+# psychologist-website
+frontend
+backend
